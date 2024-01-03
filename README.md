@@ -1,2 +1,12 @@
 # Django-matrimony-app-1
 It ia a Matrimonial Website made Using HTML,CSS,Bootstrap,Python,Django
+## Project Previews:
+# Account login:
+![Screenshot 2024-01-03 190018](https://github.com/rachitraj123/Django-matrimony-app-1/assets/104297435/5b7c01da-0941-4fd6-bae0-b6b2bffaee73)
+# Registration page:
+![Screenshot 2024-01-03 192401](https://github.com/rachitraj123/Django-matrimony-app-1/assets/104297435/e0deb58d-520e-464c-9e29-01240fcaec7e)
+# profile creation page:
+![Screenshot 2024-01-03 192349](https://github.com/rachitraj123/Django-matrimony-app-1/assets/104297435/396bf9d7-9563-4fcc-a2ac-4edc58804a4e)
+# index page:
+![Screenshot 2024-01-03 192332](https://github.com/rachitraj123/Django-matrimony-app-1/assets/104297435/0f1e1db9-8237-4fb4-bed0-54c68de96461)
+
