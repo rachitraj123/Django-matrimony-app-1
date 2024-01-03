@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+Register!!!
+{% endblock %}
+{% block content %}
+<div class="container"  style="background-color: rgb(248, 248, 248); border: 2px; border-color:black;width:fit-content;">
+    <h1>Account Login !!</h1>
+<form method="post" class="w-100">
+    {% csrf_token %}
+    {% for field in form  %}
+    <div class="row d-flex flex-column mt-3 w-100">
+        {{field.label}}
+        {{field}}
+    </div>
+    {% if field.errors %}
+    {{field.errors}}
+        <ul class="row">
+            {% for error in  field.errors %}
+            <li class="alert alert-danger list-unstyled">{{ error }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    {% endfor %}
+    <button type="submit" name="register" class="btn btn-primary mt-3">Login</button>
+</form>
+<p></p>
+<a href="{% url 'password_reset' %}" class="btn btn-dark">Forget Password...</a>
+<p></p>
+<p>Do not have and account?</p>
+<a href="{% url 'Accounts:register' %}" class="btn btn-danger">Registere Here?</a>
+</div>
+
+{% endblock %}
